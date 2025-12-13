@@ -1,0 +1,12 @@
+[
+  {
+    "source_url": "releases/download/v1.0/orders.csv",
+    "sink_folder": "Dataset",
+    "sink_file": "orders.csv"
+  },
+  {
+    "source_url": "releases/download/v1.0/events.csv",
+    "sink_folder": "Dataset",
+    "sink_file": "events.csv"
+  }
+]
