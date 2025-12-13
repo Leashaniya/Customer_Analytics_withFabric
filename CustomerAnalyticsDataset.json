@@ -1,0 +1,17 @@
+[
+  {
+    "source_url": "refs/heads/main/Customer_Analytics_Dataset/customers.csv",
+    "sink_folder": "Dataset",
+    "sink_file": "customers.csv"
+  },
+  {
+    "source_url": "refs/heads/main/Customer_Analytics_Dataset/products.csv",
+    "sink_folder": "Dataset",
+    "sink_file": "products.csv"
+  },
+  {
+    "source_url": "refs/heads/main/Customer_Analytics_Dataset/tickets.csv",
+    "sink_folder": "Dataset",
+    "sink_file": "tickets.csv"
+  }
+]
