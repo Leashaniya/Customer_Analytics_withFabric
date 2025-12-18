@@ -7,17 +7,17 @@ The project focuses on data engineering best practices: ingestion, transformatio
 📖 Read the full blog here: https://medium.com/@leashakrish2002/building-an-end-to-end-customer-analytics-platform-with-microsoft-fabric-using-medallion-53cb4734cafb?postPublishedType=repub
 
 ## 🎯 What This Project Covers
-Metadata-driven ingestion using GitHub APIs
-
-Handling large files using GitHub Releases
-
-Bronze → Silver cleaning + standardization (Delta tables)
-
-Silver → Gold business-ready transformations + aggregations
-
-End-to-end orchestration using Fabric Pipelines
-
-Built-in Fabric Task Flow + Lineage tracking
+- Metadata-driven ingestion via GitHub APIs
+  
+- Large dataset handling using GitHub Releases
+  
+- Bronze and Silver layer data cleaning and standardization
+   
+- Gold layer analytics-ready transformations
+  
+- End-to-end orchestration with Fabric Pipelines
+  
+- Task flow and lineage visibility in Microsoft Fabric  
 
 ## 📦 Dataset Sources
 Kaggle Dataset: Customer 360
