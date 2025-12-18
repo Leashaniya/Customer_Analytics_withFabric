@@ -66,11 +66,11 @@ Create a new workspace in Fabric (Customer Analytics)
 ### **Step 2**  Metadata-driven Ingestion Setup (GitHub API)
 Large files (GitHub Releases)
 
-Located in: metadata/github_releases_files.json
+  * Located in: metadata/github_releases_files.json
 
 Smaller files (Main branch)
 
-Located in: metadata/github_main_branch_files.json
+  * Located in: metadata/github_main_branch_files.json
 
 <img width="1179" height="581" alt="image" src="https://github.com/user-attachments/assets/08ce4814-33a6-4c73-8dc2-ab0a3625d6af" />
 
@@ -79,47 +79,23 @@ Create a Fabric Data Pipeline
 
 Use:
 
-  Lookup to read metadata JSON
+  * Lookup to read metadata JSON
   
-  ForEach to loop through file list
+  * ForEach to loop through file list
   
-  Copy Data to pull from GitHub and store into Bronze lakehouse /Files/Dataset/
+  * Copy Data to pull from GitHub and store into Bronze lakehouse /Files/Dataset/
   
 
 ### **Step 4**  Bronze to Silver Transformations (Notebook)
-Run the notebook:
+Run the notebook: notebooks/Bronze2Silver_CustomerAnalytics_Notebook.ipynb
 
-notebooks/Bronze2Silver_CustomerAnalytics_Notebook.ipynb
+Delta tables created in Silver lakehouse
 
-Outputs:
-
-Delta tables created in Silver lakehouse:
-silver_customers
-
-silver_orders
-
-silver_products
-
-silver_events
-
-silver_tickets
 
 ### **Step 5**  Silver to Gold Transformations (Notebook)
-Run the notebook:
+Run the notebook: notebooks/Silver2Gold_CustomerAnalytics_Notebook.ipynb
 
-notebooks/Silver2Gold_CustomerAnalytics_Notebook.ipynb
-
-Creates business metrics such as:
-
-Total customers
-
-Revenue
-
-Total orders
-
-Avg order value
-
-Engagement indicators 
+Creates business metrics such as: Total customers, Revenue, Total orders, Avg order value, Engagement indicators 
 
 ### **Step 6**  End-to-End Orchestration Pipeline
 
