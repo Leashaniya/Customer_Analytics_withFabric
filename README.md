@@ -31,14 +31,14 @@ Pulled via GitHub API endpoints using metadata JSON.
 
 ## 🧱 Architecture (Medallion)
 ### Bronze (Raw)
-Stores data exactly as received
+* Stores data exactly as received
 
 ### Silver (Cleaned & Standardized)
-Data cleaning (nulls, invalid formats, inconsistent strings)
+* Data cleaning (nulls, invalid formats, inconsistent strings)
 
-Datatype corrections (dates, numeric fields)
+* Datatype corrections (dates, numeric fields)
 
-Stored as Delta tables:
+* Stored as Delta tables:
 
   silver_customers
   
@@ -51,13 +51,11 @@ Stored as Delta tables:
   silver_tickets
 
 ### Gold (Business-Ready)
-Aggregations and joins across entities
+* Aggregations and joins across entities
 
-Produces analytics-ready datasets (Customer-level metrics)
+* Produces analytics-ready datasets (Customer-level metrics)
 
-Stored as Delta tables in Gold lakehouse:
-
-  gold_customer_360
+* Stored as Delta tables in Gold lakehouse: gold_customer_360
 
 
 ### **Step 1**  Create Fabric Workspace
