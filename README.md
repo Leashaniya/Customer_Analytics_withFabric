@@ -125,11 +125,11 @@ Engagement indicators
 
 Create a parent orchestration pipeline that runs in sequence:
 
-Invoke ingestion pipeline
+      Invoke ingestion pipeline
 
-Run Silver notebook
+      Run Silver notebook
 
-Run Gold notebook
+      Run Gold notebook
 
 <img width="1031" height="691" alt="image" src="https://github.com/user-attachments/assets/ec71a04a-20eb-4d62-aa10-98b671936d43" />
 
