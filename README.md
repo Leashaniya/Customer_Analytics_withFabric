@@ -50,42 +50,10 @@ Create a new workspace in Fabric (Customer Analytics)
 
 **Step 2**  Metadata-driven Ingestion Setup (GitHub API)
 Large files (GitHub Releases)
-
 Located in: metadata/github_releases_files.json
 
-[
-  {
-    "source_url": "releases/download/v1.0/orders.csv",
-    "sink_folder": "Dataset",
-    "sink_file": "orders.csv"
-  },
-  {
-    "source_url": "releases/download/v1.0/events.csv",
-    "sink_folder": "Dataset",
-    "sink_file": "events.csv"
-  }
-]
 Smaller files (Main branch)
-
 Located in: metadata/github_main_branch_files.json
-
-[
-  {
-    "source_url": "refs/heads/main/Customer_Analytics_Dataset/customers.csv",
-    "sink_folder": "Dataset",
-    "sink_file": "customers.csv"
-  },
-  {
-    "source_url": "refs/heads/main/Customer_Analytics_Dataset/products.csv",
-    "sink_folder": "Dataset",
-    "sink_file": "products.csv"
-  },
-  {
-    "source_url": "refs/heads/main/Customer_Analytics_Dataset/tickets.csv",
-    "sink_folder": "Dataset",
-    "sink_file": "tickets.csv"
-  }
-]
 
 <img width="1179" height="581" alt="image" src="https://github.com/user-attachments/assets/08ce4814-33a6-4c73-8dc2-ab0a3625d6af" />
 
