@@ -1,4 +1,4 @@
-Customer Analytics Platform with Microsoft Fabric (Medallion Architecture)
+# Customer Analytics Platform with Microsoft Fabric (Medallion Architecture)
 
 This repository contains an end-to-end Customer Analytics data platform built using Microsoft Fabric following the Medallion Architecture (Bronze → Silver → Gold).
 The project focuses on data engineering best practices: ingestion, transformation, orchestration, lineage, and analytics readiness.
